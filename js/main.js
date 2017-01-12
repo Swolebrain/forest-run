@@ -45,7 +45,6 @@ function checkIfEnded(){
   var ended = document.body.scrollTop + Math.round(window.innerHeight) > document.body.clientHeight * 0.99;
   if (ended) dudeContainer.classList.add("run-off");
   else dudeContainer.classList.remove("run-off");
-  console.log(ended);
   return ended;
 }
 
