@@ -121,6 +121,7 @@ body{
   position:absolute;
   width: 100%;
   left:0;
+  font-family: 'Righteous', cursive;
 }
 #story h1.fadeIn{
   opacity: 1;
