@@ -1,10 +1,12 @@
 @keyframes runningDude {
   to { background-position: -3845px 0; }
 }
+
 @keyframes stoppingDude{
   from { background-position: -1155px 0}
   to{ background-position: 0 0 }
 }
+
 @keyframes bgMove{
   to { transform: translateX(-90%)}
 }
