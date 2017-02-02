@@ -18,8 +18,7 @@ body{
   width: 385px;
   height: 385px;
   position: fixed;
-  left: -300px;
-  bottom: 10%;
+  top: 45%;
   transition: left 1.5s linear;
 }
 #character-container div{
@@ -30,8 +29,8 @@ body{
   left: 45%;
   transform: translateX(-55%);
 }
-#character-container.run-off{
-  left:130%;
+#hcaracter-container.run-off{
+  left:110
 }
 .running{
   background: url('../res/spritesheets/character-hrz.png') !important;
@@ -62,22 +61,27 @@ body{
   bottom:0;
   left:0;
   width:100vw;
-  height:40vh;
+  height:50vh;
 }
 #bg4{
-  background: url("../res/images/bg-4.png") repeat;
+  background: url("../res/images/bg-4.png") repeat-x;
+  background-position: center;
 }
 #bg3{
-  background: url("../res/images/bg-3.png") repeat;
+  background: url("../res/images/bg-3.png") repeat-x;
+  background-position: center;
 }
 #bg2{
-  background: url("../res/images/bg-2.png") repeat;
+  background: url("../res/images/bg-2.png") repeat-x;
+  background-position: center;
 }
 #bg1{
-  background: url("../res/images/bg-1.png") repeat;
+  background: url("../res/images/bg-1.png") repeat-x;
+  background-position: center;
 }
 #bg0{
-  background: url("../res/images/bg-0.png") repeat;
+  background: url("../res/images/bg-0.png") repeat-x;
+  background-position: center;
 }
 .bg0Anim{ animation: bgMove 6s linear infinite 1.5s; }
 .bg0Anim-nd{ animation: bgMove 6s linear infinite; }
@@ -121,7 +125,6 @@ body{
   position:absolute;
   width: 100%;
   left:0;
-  font-family: 'Righteous', cursive;
 }
 #story h1.fadeIn{
   opacity: 1;
