@@ -21,6 +21,7 @@ body{
   height: 385px;
   position: fixed;
   top: 45%;
+  left: -300px;
   transition: left 1.5s linear;
 }
 #character-container div{
@@ -32,7 +33,7 @@ body{
   transform: translateX(-55%);
 }
 #hcaracter-container.run-off{
-  left:110
+  left:150vw;
 }
 .running{
   background: url('../res/spritesheets/character-hrz.png') !important;
