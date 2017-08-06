@@ -42,7 +42,8 @@ function stopAnim(e,i){
 }
 
 function checkIfEnded(){
-  var ended = document.body.scrollTop + Math.round(window.innerHeight) > document.body.clientHeight * 0.99;
+  var ended = document.body.scrollTop + Math.round(window.innerHeight) > document.body.clientHeight * 0.97;
+  console.log('ended: '+ended);
   if (ended) dudeContainer.classList.add("run-off");
   else dudeContainer.classList.remove("run-off");
   return ended;

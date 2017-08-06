@@ -32,8 +32,8 @@ body{
   left: 45%;
   transform: translateX(-55%);
 }
-#hcaracter-container.run-off{
-  left:150vw;
+#character-container.run-off{
+  left:130%;
 }
 .running{
   background: url('../res/spritesheets/character-hrz.png') !important;
